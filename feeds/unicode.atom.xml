@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anshuman Pandey - unicode</title><link href="https://pandey.github.io/unicode/" rel="alternate"/><link href="https://pandey.github.io/unicode/feeds/unicode.atom.xml" rel="self"/><id>https://pandey.github.io/unicode/</id><updated>2014-05-09T16:43:39.794000-07:00</updated><subtitle>Anshuman Pandey</subtitle><entry><title>Gujarati signs for transliterating Arabic</title><link href="https://pandey.github.io/unicode/posts/2014-05-09-gujarati-arabic.html" rel="alternate"/><published>2014-05-09T16:43:39.794000-07:00</published><updated>2014-05-09T16:43:39.794000-07:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2014-05-09:/unicode/posts/2014-05-09-gujarati-arabic.html</id><summary type="html">&lt;p&gt;Usage of new diacritic marks in Ismaili&amp;nbsp;orthography&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ismaili communities such as the Ithnashari Khoja (&amp;#8220;Twelver Shia&amp;#8221;) and Agakhani Khoja 
+use a convention for transliterating Arabic into the Gujarati script. The 
+convention allows for the representation of Arabic letters and signs for which 
+there are no corresponding characters in Gujarati. The diacritics used in 
+the convention are written with Gujarati letters that mostly closely 
+approximate the Arabic sound being represented. 
+The creation of the full set and the first documented printing of
+these signs was undertaken by the Ithnashari Khoja publisher Gulāmalī Ismāʾil of
+Bhavnagar, Gujarat in 1901. The characters are now standard elements of the 
+Gujarati orthography used by these communities.
+Some of these diacritics are shown below, with 
+color coding added, in an excerpt of a printed version of the Qurʾān in the 
+Gujarati&amp;nbsp;script:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/gujarati_arabic.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;ve written a &lt;a href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n4574.pdf"&gt;proposal&lt;/a&gt; 
+to encode these characters as combining signs in the Gujarati block of the Unicode 
+standard. I am interested in communicating with users about these and other signs 
+used in Gujarati for similar purposes. Thank you to Iqbal Akhtar for informing me 
+about these&amp;nbsp;signs.&lt;/p&gt;</content><category term="unicode"/><category term="gujarati"/></entry><entry><title>Siddham headstroke: abode of the inherent vowel?</title><link href="https://pandey.github.io/unicode/posts/2013-11-15-siddham-headstroke.html" rel="alternate"/><published>2013-11-15T12:54:53.127000-08:00</published><updated>2013-11-15T12:54:53.127000-08:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2013-11-15:/unicode/posts/2013-11-15-siddham-headstroke.html</id><summary type="html">&lt;p&gt;Native Japanese analysis of the Indic inherent&amp;nbsp;vowel&lt;/p&gt;</summary><content type="html">&lt;p&gt;The below excerpt from the &lt;em&gt;Shittan Hidenki&lt;/em&gt; [悉曇祕傳記] (&lt;em&gt;Taishō Shinshū Daizōkyō&lt;/em&gt;, 
+vol. 84, no. 270) of Shinpan [信範] shows an analysis of independent vowel letters, 
+their dependent forms, and the combinations of these dependent forms with the Siddham 
+consonant letter &lt;span class="caps"&gt;KA&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_myoten_inherent_a.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;It also shows a horizontal stroke associated with Siddham vowel letter A that correlates 
+with the dependent forms of the other vowel letters. In Japanese, this stroke is known as 
+the ア点 &lt;em&gt;a-ten&lt;/em&gt; &amp;#8220;&lt;em&gt;a&lt;/em&gt; mark&amp;#8221; and is considered to be an elongated form of the 命点 
+&lt;em&gt;myō-ten&lt;/em&gt; &amp;#8220;life mark&amp;#8221;. The &lt;em&gt;myō-ten&lt;/em&gt; is the initial brush stroke used in the writing 
+of all Siddham letters. The &lt;em&gt;a-ten&lt;/em&gt; is produced by extending the &lt;em&gt;myō-ten&lt;/em&gt; to the right. 
+It is not a true vowel sign; it is the headstroke of each consonant&amp;nbsp;letter.&lt;/p&gt;
+&lt;p&gt;My hunch is that the concept of the &lt;em&gt;a-ten&lt;/em&gt; was developed by Japanese 
+scholars as a way of explaining 
+the inherent vowel /a/ possessed by every consonant letter. All Indic vowels 
+have both independent and dependent forms, except for the letter A, which has only an 
+independent form. The &lt;em&gt;a-ten&lt;/em&gt; raises several philosophical questions regarding the 
+sound and forms of letters: How does one capture this inherent sound, which is part of the 
+phonetic identity of each consonant letter, but which is graphically unmarked? Is it contained 
+somehow in the letter form? If so, where in the glyph does it reside? As it represents the 
+initial brush stroke used for writing the vowel letter A, it may be said to contain the graphical 
+and phonetic essence of the&amp;nbsp;letter.&lt;/p&gt;
+&lt;p&gt;I raise the matter of the Siddham &lt;a href="https://pandey.github.io/posts/2013-11-13-siddham-myoten.html"&gt;&lt;em&gt;myō-ten&lt;/em&gt;&lt;/a&gt; 
+and &lt;em&gt;a-ten&lt;/em&gt; because it is significant from an ideographic perspective, as are the other 
+elemental strokes identified in pedagogical texts. I am 
+currently investigating the potential of encoding these elemental strokes, which I 
+mentioned in my Siddham proposal as being out of scope for the basic encoding. I 
+welcome any information on the &lt;em&gt;myō-ten&lt;/em&gt; from users familiar with its philosophical 
+interpretations and its use in Siddham&amp;nbsp;pedagogy.&lt;/p&gt;
+&lt;!-- toscheNovember 16, 2013 at 2:08 PM
+
+In Japan, Siddham writing survived much more strongly than Sanskrit speech (which stopped 
+rather quickly after Japan stopped trade with India), so I don't think ア点 and 命点 are 
+important in terms of phonetics. Looking at Siddham books in Japan, I can find that almost 
+all strokes have their own names (obviously the most important of all is ア点). So I agree 
+with you; I think they were named so because the Japanese monks needed to develop terminology 
+in order to teach writing, and found that this stroke is found in every letter.
+
+As most of the books that discusses Siddham mention ア点 and 命点 in the text, it may be nice 
+to have it encoded.
+
+--&gt;</content><category term="unicode"/><category term="siddham"/></entry><entry><title>Siddham myō-ten: the essence of a character?</title><link href="https://pandey.github.io/unicode/posts/2013-11-13-siddham-myoten.html" rel="alternate"/><published>2013-11-13T12:46:06.879000-08:00</published><updated>2013-11-13T12:46:06.879000-08:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2013-11-13:/unicode/posts/2013-11-13-siddham-myoten.html</id><summary type="html">&lt;p&gt;Notes on analysis of Siddham character&amp;nbsp;strokes&lt;/p&gt;</summary><content type="html">&lt;p&gt;A short downward sloping horizontal stroke is shown in some historical
+and modern Siddham handbooks in connection with &lt;span class="caps"&gt;SIDDHAM&lt;/span&gt; &lt;span class="caps"&gt;LETTER&lt;/span&gt; A. In
+&lt;em&gt;Sacred Calligraphy of the East&lt;/em&gt; (1981), John Stevens calls it a
+&amp;#8216;variation&amp;#8217; of the vowel letter&amp;nbsp;A:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_myoten_variation_stevens.png"&gt;&lt;/p&gt;
+&lt;p&gt;In the excerpt, below, from the &lt;em&gt;Zusetsu Bonji&lt;/em&gt; [図說梵字] (1974) of Kijun
+Tokuzan [徳山暉純], the stroke is shown as a form of the vowel letter A,
+on par with the dependent forms of the vowel letters A, I, and &lt;span class="caps"&gt;II&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_myoten_tokuzan.png"&gt;&lt;/p&gt;
+&lt;p&gt;Giryū Kodama [児玉義隆] also shows it as a form of A in his &lt;em&gt;Bonji Hikkei&lt;/em&gt;
+[梵字必携]&amp;nbsp;(1991):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_myoten_kodama.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Although it is correlated with Siddham vowel letter A, it is not a
+true vowel sign, but represents the initial brush stroke used in
+writing the vowel letter. Below is another excerpt from Tokuzan
+(1974), which shows the nine brush strokes used for constructing the
+vowel letter A, with the initial stroke&amp;nbsp;highlighted:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_myoten_stroke_order.png"&gt;&lt;/p&gt;
+&lt;p&gt;The same stroke is used in the creation of all
+Siddham letters. The stroke is shown below in the forms for Siddham
+letters A, &lt;span class="caps"&gt;KHA&lt;/span&gt;, &lt;span class="caps"&gt;HA&lt;/span&gt;, &lt;span class="caps"&gt;RA&lt;/span&gt;, &lt;span class="caps"&gt;VA&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_a-ten_tokuzan_.png"&gt;&lt;/p&gt;
+&lt;p&gt;This stroke is known in Japanese as 命点 &lt;em&gt;myō-ten&lt;/em&gt; &amp;#8220;life mark&amp;#8221;. It
+corresponds to the Chinese basic stroke 點 &lt;em&gt;diǎn&lt;/em&gt; &amp;#8220;dot&amp;#8217;&amp;#8221;, which is
+encoded in Unicode as ㇔U+31D4 &lt;span class="caps"&gt;CJK&lt;/span&gt; &lt;span class="caps"&gt;STROKE&lt;/span&gt;&amp;nbsp;D.&lt;/p&gt;
+&lt;p&gt;I have not been able to conduct much research into the meaning of
+Siddham &lt;em&gt;myō-ten&lt;/em&gt;, but I have a hunch that it embodies the phonetic
+power of a character. I would theorize that the philosophy behind the
+&lt;em&gt;myō-ten&lt;/em&gt; arose as a way of explaining the absence of a mark for the
+inherent vowel. All Indic vowels have both independent and dependent
+forms, except for the letter A, which has only an independent form.
+This raises several questions from a philosophical angle: How does one
+capture this inherent sound, which is part of the graphical structure
+of each consonant letter, but which is unmarked? Is it contained
+somehow in the letter form? If so, where in the glyph does it reside?
+As it represents the initial brush stroke used for writing the vowel
+letter A, it may be said to contain the graphical and phonetic essence
+of the&amp;nbsp;letter.&lt;/p&gt;
+&lt;p&gt;I raise the issue of the Siddham &lt;em&gt;myō-ten&lt;/em&gt; because it is significant
+from an ideographic perspective, as are the other elemental strokes
+identified in pedagogical texts. I am currently investigating the
+potential of encoding these elemental strokes, which I mentioned in my
+Siddham proposal as being out of scope for the basic encoding. I
+welcome any information on the &lt;em&gt;myō-ten&lt;/em&gt; from users familiar with its
+philosophical interpretations and its use in Siddham&amp;nbsp;pedagogy.&lt;/p&gt;</content><category term="unicode"/><category term="siddham"/></entry><entry><title>Siddham nukta: a curious innovation</title><link href="https://pandey.github.io/unicode/posts/2013-11-05-siddham-nukta.html" rel="alternate"/><published>2013-11-05T09:58:42.109000-08:00</published><updated>2013-11-05T09:58:42.109000-08:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2013-11-05:/unicode/posts/2013-11-05-siddham-nukta.html</id><summary type="html">&lt;p&gt;Usage of a modern Indic diacritic in&amp;nbsp;Siddham&lt;/p&gt;</summary><content type="html">&lt;p&gt;The combining sign  ़   &lt;span class="caps"&gt;NUKTA&lt;/span&gt; is used in Indic scripts for transcribing sounds
+for which distinct characters do not natively exist in a writing
+system. The name of the character is derived from the Arabic word نقطة
+&lt;em&gt;nuqṭah&lt;/em&gt; (simplified in Indic romanization as &lt;em&gt;nukta&lt;/em&gt;)
+&amp;#8220;dot&amp;#8221;. The &lt;span class="caps"&gt;NUKTA&lt;/span&gt; is used in Devanagari and related scripts of northern
+India for expressing sounds not commonly used in Indo-Aryan languages,
+mostly those that originate from Arabic and Persian. It is also used
+natively in scripts such as Bengali and Tirhuta for distinguishing
+between characters that have nearly identical graphical structures.
+Although now used quite frequently in modern Indic scripts, the &lt;span class="caps"&gt;NUKTA&lt;/span&gt;
+is not part of the traditional character repertoire based upon the
+representation of Sanskrit phonology. As one might expect, the &lt;span class="caps"&gt;NUKTA&lt;/span&gt;
+is not attested in historical Siddham materials as the usage of
+Siddham is largely restricted to the representation of&amp;nbsp;Sanskrit.&lt;/p&gt;
+&lt;p&gt;I was, therefore, surprised when, during research for my
+proposal to encode the script in Unicode, I stumbled across the 
+&lt;a href="http://www.mandalar.com/BonjiDigitalDictionarySAMPLE/member/_Tattoo/00Tattoo.html"&gt;following sample&lt;/a&gt; 
+at the &lt;a href="http://www.mandalar.com"&gt;Mandalar&lt;/a&gt; site 
+showing usage of &lt;span class="caps"&gt;NUKTA&lt;/span&gt; in Siddham text&amp;nbsp;as:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_nukta_mandalar_tattoo.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The above excerpt provides the
+translation or transliteration of English &amp;#8220;tattoo&amp;#8221; in Sanskrit,
+English/Hindi, and Japanese. The Sanskrit वेध &lt;em&gt;vedha&lt;/em&gt; does
+not truly translate as &amp;#8220;tattoo&amp;#8221;, but carries the connotation of a
+&amp;#8220;piercing&amp;#8221;, &amp;#8220;puncturing&amp;#8221;, or &amp;#8220;perforation&amp;#8221; (√ व्यध्); the
+English/Hindi ततू  &lt;em&gt;tatū&lt;/em&gt; is simply a transliteration of English &amp;#8220;tattoo&amp;#8221;
+(which also might be rendered टैटू &lt;em&gt;ṭaiṭū,&lt;/em&gt; using retroflex
+letters instead of dentals); and इरेज़ुमि &lt;em&gt;irezumi&lt;/em&gt;, which
+is the transliteration into Siddham of the Japanese word for &amp;#8220;tattoo&amp;#8221;,
+入れ墨 &lt;em&gt;irezumi&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_nukta_mandalar_tattoo_irezumi.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Of interest is the usage of &lt;span class="caps"&gt;NUKTA&lt;/span&gt; in
+writing the word इरेज़ुमि. In general, the &lt;span class="caps"&gt;NUKTA&lt;/span&gt; is written with a
+letter that has the closest phonetic proximity to the target sound.
+Here, the &lt;span class="caps"&gt;NUKTA&lt;/span&gt; is combined with &lt;span class="caps"&gt;SIDDHAM&lt;/span&gt; &lt;span class="caps"&gt;LETTER&lt;/span&gt; &lt;span class="caps"&gt;JA&lt;/span&gt; (/ʤ/) for
+representing /z/. When &lt;span class="caps"&gt;NUKTA&lt;/span&gt; occurs with a consonant to which a vowel
+sign is attached, then it is ordered in encoded text immediately after
+the consonant and before the combining vowel sign: &lt;span class="caps"&gt;JA&lt;/span&gt; + &lt;span class="caps"&gt;NUKTA&lt;/span&gt; + &lt;span class="caps"&gt;VOWEL&lt;/span&gt; 
+&lt;span class="caps"&gt;SIGN&lt;/span&gt; U. The positioning
+of the &lt;span class="caps"&gt;NUKTA&lt;/span&gt; with regard to the base letter depends upon the shape of
+the letter and the presence of any below-base vowel&amp;nbsp;signs.&lt;/p&gt;
+&lt;p&gt;The Mandalar site has a &lt;a href="http://www.mandalar.com/DisplayJ/Bonji/index2.html"&gt;chart&lt;/a&gt;
+that shows the usage of &lt;span class="caps"&gt;NUKTA&lt;/span&gt; with other consonants for representing
+fricatives and other&amp;nbsp;sounds:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_nukta_consonants_mandalar.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The introduction of the &lt;span class="caps"&gt;NUKTA&lt;/span&gt; in Siddham is a
+surprising innovation. I have yet to investigate the issue fully, but
+at first glimpse the usage of &lt;span class="caps"&gt;NUKTA&lt;/span&gt; suggests that modern users of
+Siddham seek to extend the script by adopting features used in Indic
+scripts. Such borrowings show that Siddham is quite alive in Japan and
+that its usage is continually being extended beyond traditional
+contexts. Indeed, the Mandalar site displays these innovations under
+the banner of 現代悉曇 &lt;em&gt;gendai shittan&lt;/em&gt; or &amp;#8220;modern&amp;nbsp;Siddham&amp;#8221;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_mandalar_gendai_shittan.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;In order to support such usage, I
+proposed the character for encoding as U+115C0 &lt;span class="caps"&gt;SIDDHAM&lt;/span&gt; &lt;span class="caps"&gt;SIGN&lt;/span&gt; &lt;span class="caps"&gt;NUKTA&lt;/span&gt;. It
+corresponds to characters such as U+093C &lt;span class="caps"&gt;DEVANAGARI&lt;/span&gt; &lt;span class="caps"&gt;SIGN&lt;/span&gt; &lt;span class="caps"&gt;NUKTA&lt;/span&gt; and
+possesses the same&amp;nbsp;properties.&lt;/p&gt;
+&lt;p&gt;I am curious to know the
+history of &lt;span class="caps"&gt;NUKTA&lt;/span&gt; in Siddham and the rationale of the &lt;em&gt;gendai shittan&lt;/em&gt; 
+user(s) who first used &lt;span class="caps"&gt;NUKTA&lt;/span&gt; in the script. Was the idea motivated
+by the usage of &lt;span class="caps"&gt;NUKTA&lt;/span&gt; in modern Indic orthographies? Was it influenced
+by Unicode? Does the &amp;#8216;dot&amp;#8217; have ideographic&amp;nbsp;interpretations?&lt;/p&gt;</content><category term="unicode"/><category term="siddham"/></entry><entry><title>Siddham ornaments: beyond punctuation</title><link href="https://pandey.github.io/unicode/posts/2013-11-04-siddham-ornaments.html" rel="alternate"/><published>2013-11-04T17:10:41.817000-08:00</published><updated>2013-11-04T17:10:41.817000-08:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2013-11-04:/unicode/posts/2013-11-04-siddham-ornaments.html</id><summary type="html">&lt;p&gt;Notes on ornamental signs used in&amp;nbsp;Siddham&lt;/p&gt;</summary><content type="html">&lt;p&gt;Siddham has several characters that are used in manuscripts for marking the 
+end of text sections. Some of these are shown in column ⑦&amp;nbsp;below: &lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_section_marks_1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Palaeographically, these section marks are similar to characters in other 
+Indic scripts, such as 𑁍 U+1104D &lt;span class="caps"&gt;BRAHMI&lt;/span&gt; &lt;span class="caps"&gt;PUNCTUATION&lt;/span&gt; &lt;span class="caps"&gt;LOTUS&lt;/span&gt;, which are ornamental 
+marks. In general, these marks do not possess phonetic values or semantic 
+meaning beyond their function as terminations. However, as the above excerpt 
+shows, in the Japanese analysis of Siddham, these marks additionally represent 
+the syllable&amp;nbsp;&amp;#8220;aṃ&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;The extant sources contain several other ornaments beyond the three
+shown above. My research identified at least 14, which I &lt;a href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n4336.pdf"&gt;proposed for
+inclusion&lt;/a&gt; in the
+Siddham&amp;nbsp;block:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_section_marks_proposed.png"&gt;&lt;/p&gt;
+&lt;p&gt;The section marks may be classified into five groups based upon their
+graphical&amp;nbsp;structure.&lt;/p&gt;
+&lt;p&gt;In addition to their representation of &amp;#8220;aṃ&amp;#8221;, according to certain Japanese 
+Buddhist traditions, these marks have esoteric connotations that offer 
+insights into the textual passages after which they are written. Moreover, 
+the graphical structure indicates other philosophical meanings, of which I 
+am not fully aware or to which I am not privy! These characters would be 
+considered ornaments or glyphic variants of a basic set of section marks 
+according to the character-glyph model of Unicode, but on account of the 
+semantics they possess beyond their function as punctuation, they have been 
+encoded&amp;nbsp;independently. &lt;/p&gt;</content><category term="unicode"/><category term="siddham"/></entry><entry><title>Siddham digits: any good evidence?</title><link href="https://pandey.github.io/unicode/posts/2013-11-02-siddham-digits.html" rel="alternate"/><published>2013-11-02T01:07:47.574000-07:00</published><updated>2013-11-02T01:07:47.574000-07:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2013-11-02:/unicode/posts/2013-11-02-siddham-digits.html</id><summary type="html">&lt;p&gt;Notes on the status of digits in&amp;nbsp;Siddham&lt;/p&gt;</summary><content type="html">&lt;p&gt;As I conducted research for my &lt;a href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n4294.pdf"&gt;proposal to encode
+Siddham&lt;/a&gt; in Unicode,
+I began to notice that the primary and secondary sources I examined
+all lacked a set of characters that are typically found in related
+Indic scripts that emerged during the 10th&amp;nbsp;century&amp;#8230;&lt;/p&gt;
+&lt;p&gt;Digits.&lt;/p&gt;
+&lt;p&gt;Well, this is not entirely true. As I discussed in section 3.13 of the
+proposal, Siddham contains two characters, that based upon their form
+and function, appear to be the remaining representatives of a set of
+digits that were once likely part of the script. These characters
+correspond to a palaeographic form of an Indic digit &lt;span class="caps"&gt;TWO&lt;/span&gt;. But, in
+Siddham this sign has lost its numeric value and it lives on only
+graphically. Well, this is not entirely true, either. The sign may
+have lost its numeric value, but the vestigial character retains its
+numerical semantics in its function. This character is the repetition
+mark shown&amp;nbsp;below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/siddham_repetition_mark_example.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The sign in question appears twice in the excerpt (middle row,
+characters 3 and 4 from the left) and is transliterated as &amp;#8220;hūṃ&amp;#8221;. This
+gloss is slightly misleading. The character itself does not represent
+the syllable &amp;#8220;hūṃ&amp;#8221;; rather, it represents a &amp;#8216;ditto&amp;#8217; mark. Moreover,
+although it is graphically based upon a palaeographic digit &lt;span class="caps"&gt;TWO&lt;/span&gt;, it
+simply indicates that the word or syllable that precedes it is to be
+repeated; not twice, but just once. The two instances of the mark mean
+that &amp;#8220;hūṃ&amp;#8221; is to be recited three times, as shown. It appears that the
+editor of the original text provided the intended reading instead of
+&amp;#8216;ditto&amp;#8217; for the sake of&amp;nbsp;clarity.&lt;/p&gt;
+&lt;p&gt;This Siddham repetition mark corresponds glyphically to Devanagari
+digit two (२), but more so to the Gurmukhi digit two (੨). It seems
+that as Siddhamatrika made its way from south to east Asia, the
+Buddhist scribes and scholars who used it slowly discarded from the
+script features that they didn&amp;#8217;t really find necessary or useful. So,
+away went the digits 0-1 and 3-9. The digit two (੨) seems to have
+struck someone as a handy way of indicating a &amp;#8220;doubling&amp;#8221; when writing
+or copying texts. So, what we have now in Siddham is essentially an
+east Asian ideographic interpretation of an Indic character that was
+originally and palaeographically a sign for a digit. The &amp;#8216;੨&amp;#8217; is the
+only numerical sign that I have seen in Siddham&amp;nbsp;texts.&lt;/p&gt;
+&lt;p&gt;Well, that is not entirely true either&amp;#8230; In the latter stages of my
+research I found the following chart on a Japanese&amp;nbsp;site:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/bonji_numerals_mandalar.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;These &amp;#8220;Bonji numerals&amp;#8221; appear to be modern creations based upon
+Devanagari digits. I submitted a
+&lt;a href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n4467.pdf"&gt;proposal&lt;/a&gt; to encode
+a set of digits in the Siddham block based upon these signs, but the
+Unicode Technical Committee (&lt;span class="caps"&gt;UTC&lt;/span&gt;) requested additional evidence of the
+use of digits in the&amp;nbsp;script.&lt;/p&gt;
+&lt;p&gt;Does anyone know of Siddham manuscripts, pedagogical texts, or other
+records that contain examples of digits? Hmmm, at this point, I may
+even accept 入れ墨 &lt;em&gt;irezumi&lt;/em&gt; as evidence, even if the &lt;span class="caps"&gt;UTC&lt;/span&gt; might&amp;nbsp;not!&lt;/p&gt;</content><category term="unicode"/><category term="siddham"/></entry><entry><title>A distinctive Khojki letter for qa?</title><link href="https://pandey.github.io/unicode/posts/2013-10-12-khojki-qa.html" rel="alternate"/><published>2013-10-12T19:40:36.542000-08:00</published><updated>2013-10-12T19:40:36.542000-08:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2013-10-12:/unicode/posts/2013-10-12-khojki-qa.html</id><summary type="html">&lt;p&gt;Is a character used for /q/ a distinctive letter or a glyphic&amp;nbsp;variant?&lt;/p&gt;</summary><content type="html">&lt;p&gt;The following excerpt from a printed Khojki book contains two forms of
+&lt;em&gt;ka&lt;/em&gt;. The &lt;em&gt;ka&lt;/em&gt; highlighted in blue is the representative glyph of
+U+11208 &lt;span class="caps"&gt;KHOJKI&lt;/span&gt; &lt;span class="caps"&gt;LETTER&lt;/span&gt; &lt;span class="caps"&gt;KA&lt;/span&gt; (to be published in Unicode 7), while the red
+&lt;em&gt;ka&lt;/em&gt; is the alternate&amp;nbsp;form.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/khojki_ka_variant.jpg"&gt;&lt;/p&gt;
+&lt;!-- _kalā̃m_ --&gt;
+
+&lt;p&gt;Here, the red &lt;em&gt;ka&lt;/em&gt; is used in the word &lt;em&gt;kalām&lt;/em&gt;, while the blue &lt;em&gt;ka&lt;/em&gt; is
+used in the word &lt;em&gt;kalāṃm&lt;/em&gt;, both are representations
+of the Arabic word کلام &lt;em&gt;kalām&lt;/em&gt; &amp;#8220;composition, work&amp;#8221;; the &lt;em&gt;anusvāra&lt;/em&gt; in
+&lt;em&gt;kalāṃm&lt;/em&gt; is not semantically&amp;nbsp;significant.&lt;/p&gt;
+&lt;p&gt;The alternate form is used in other sources for representing &lt;em&gt;ka&lt;/em&gt;,
+suggesting that the red &lt;em&gt;ka&lt;/em&gt; is a glyphic&amp;nbsp;variant:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/asani_1992_p283_variant_ka.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;However, it also appears in other source, where it is used for
+representing &lt;em&gt;qa&lt;/em&gt; (the Arabic ق &lt;em&gt;qāf&lt;/em&gt;), suggesting that it may indeed
+be a distinctive letter, a possible *&lt;span class="caps"&gt;KHOJKI&lt;/span&gt; &lt;span class="caps"&gt;LETTER&lt;/span&gt; &lt;span class="caps"&gt;QA&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/asani_1992_p294_qaf.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I have not yet seen this work, so I do not know the context in which
+the letter is used for &lt;em&gt;qāf&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The shape of &lt;span class="caps"&gt;KHOJKI&lt;/span&gt; &lt;span class="caps"&gt;LETTER&lt;/span&gt; &lt;span class="caps"&gt;KA&lt;/span&gt; is fairly uniform across printed
+materials and manuscripts. It is of interest that both forms occur in
+the same document, as shown in the first image, and in such close
+proximity. The excerpt is from a printed book and is likely a faithful
+reproduction of a manuscript. Analysis of several manuscript sources
+is necessary in order to determine whether the red &lt;em&gt;ka&lt;/em&gt; is a glyphic
+variant of &lt;span class="caps"&gt;KA&lt;/span&gt; or a distinct Khojki letter &lt;span class="caps"&gt;QA&lt;/span&gt;.&lt;/p&gt;</content><category term="unicode"/><category term="khojki"/></entry><entry><title>A Graphite font for Khojki</title><link href="https://pandey.github.io/unicode/posts/2013-10-10-khojki-graphite.html" rel="alternate"/><published>2013-10-10T00:05:32.506000-07:00</published><updated>2013-10-10T00:05:32.506000-07:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2013-10-10:/unicode/posts/2013-10-10-khojki-graphite.html</id><summary type="html">&lt;p&gt;A Graphite font for&amp;nbsp;Khojki&lt;/p&gt;</summary><content type="html">&lt;p&gt;As mentioned in 
+&lt;a href="2013-10-09-script-encoding-paradox.html"&gt;&amp;#8220;The Imminent Paradox of New Scripts in Unicode&amp;#8221;&lt;/a&gt;, 
+I have begun to develop Graphite fonts for several of the historical and minor scripts
+that I have proposed for inclusion in the Unicode Standard. The first
+of these fonts is for Khojki, which I 
+&lt;a href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n3978.pdf"&gt;proposed for encoding&lt;/a&gt; in Unicode a few
+years ago and will likely appear in The Unicode Standard, version 7.0,
+planned for release in&amp;nbsp;2014.&lt;/p&gt;
+&lt;p&gt;Khojki is a medieval Indic script from the Sindh region, situated in
+present day Pakistan, which is used for liturgical purposes by the
+Nizari Ismaili community. It has been preserved by this minority
+community for six centuries, both at home and in their diaspora. The
+script has been used since the 15th century for manuscripts and since
+the early 20th century for the printing of books. There are
+organizations, such as the &lt;a href="http://www.iis.ac.uk/"&gt;Institute of Ismaili
+Studies&lt;/a&gt; (&lt;span class="caps"&gt;IIS&lt;/span&gt;) in London, which possesses a
+large collection of materials in Khojki, and several scholars
+worldwide that conduct research on these materials, that will benefit
+from this&amp;nbsp;effort.&lt;/p&gt;
+&lt;p&gt;I developed this font on a volunteer basis to meet the needs of the
+&lt;span class="caps"&gt;IIS&lt;/span&gt;, which has a requirement for the input and display Unicode Khojki
+in order to carry out their cataloguing efforts. The font, named
+KhojkiGraphite, is based upon the KhojkiJiwa font designed by Pyarali
+Jiwa of the United Kingdom years ago. Mr. Jiwa&amp;#8217;s font is the only
+TrueType font for Khojki; however is it based upon a legacy encoding.
+Its glyph repertoire contains several consonant-vowel ligatures;
+however, there are several inconsistencies with these glyph. I&amp;#8217;ve
+edited the glyphs to bring them into structural and optical alignment,
+fixed metrics, and added Graphite rendering rules in order to create
+the first Unicode-encoded Khojki font. At present it works in
+OpenOffice and LibreOffice, in XeLaTeX and XeLaTeX, as well as in
+other applications that support&amp;nbsp;Graphite.&lt;/p&gt;
+&lt;p&gt;Here is an excerpt of a &lt;em&gt;ginān&lt;/em&gt; typed in LibreOffice using&amp;nbsp;KhojkiGraphite:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/khojki_graphite_specimen.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;In order to provide users with an effective means of using the font,
+Wafi Momin of &lt;span class="caps"&gt;IIS&lt;/span&gt; has developed a basic keyboard using the Microsoft
+Keyboard Layout Creator (&lt;span class="caps"&gt;MSKLC&lt;/span&gt;). So far, the combination of the font
+and the keyboard is helping &lt;span class="caps"&gt;IIS&lt;/span&gt; to carry out its projects using modern
+technologies and to make their materials available in digital media
+using common&amp;nbsp;standards.&lt;/p&gt;
+&lt;p&gt;I will release the KhojkiGraphite font and keyboard for public testing
+in the next few months. My goal is to release the package in
+conjunction with the publication of Unicode 7.0, so that users have
+immediate support for Khojki, even though in limited&amp;nbsp;environments.&lt;/p&gt;</content><category term="unicode"/><category term="khojki"/></entry><entry><title>The paradox of encoding new scripts in Unicode</title><link href="https://pandey.github.io/unicode/posts/2013-10-09-script-encoding-paradox.html" rel="alternate"/><published>2013-10-09T00:09:18.590000-08:00</published><updated>2013-10-09T00:09:18.590000-08:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2013-10-09:/unicode/posts/2013-10-09-script-encoding-paradox.html</id><summary type="html">&lt;p&gt;The need for full support for each Unicode&amp;nbsp;version.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Over the past several years I have developed Unicode standards for
+numerous historical and minor
+&lt;a href="http://pandey.github.io/unicode"&gt;scripts&lt;/a&gt; of South Asia. Some of my
+formally proposed encodings have been approved and are making 
+their way through various stages of balloting as part of the
+process established by the International Organization for
+Standardization (&lt;span class="caps"&gt;ISO&lt;/span&gt;) &amp;#8212;- Unicode is also known as &lt;span class="caps"&gt;ISO&lt;/span&gt;/&lt;span class="caps"&gt;IEC&lt;/span&gt; 10646 &amp;#8212;-
+while others have been formally published in the&amp;nbsp;standard. &lt;/p&gt;
+&lt;p&gt;The inclusion of a script in Unicode is a major milestone. Native user and
+scholarly communities await the arrival of these new encodings from
+the day that I contact them &amp;#8212;- if not for years in the making &amp;#8212;- 
+and discuss my plans for developing an encoding for a particular script. 
+It takes nearly two years for an encoding to be published in Unicode after 
+being approved by both the Unicode Technical Committee and &lt;span class="caps"&gt;ISO&lt;/span&gt;&amp;#8217;s &lt;span class="caps"&gt;WG2&lt;/span&gt; group. 
+But, once a script is in Unicode the general perception of what &amp;#8220;inclusion
+in the standard&amp;#8221; means is far removed from the reality that is
+suggested by such an&amp;nbsp;&amp;#8220;inclusion&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;The disjunction between expectation and reality is truly a paradox: The
+encoding of a script in Unicode does not automatically imply that it will be
+supported out of the box. As is the case with other historical and minor scripts
+encoded in Unicode, it is unlikely that major software houses will
+rush to provide support for these scripts right away, or if they do so
+at&amp;nbsp;all!&lt;/p&gt;
+&lt;p&gt;If these companies do not implement support for these scripts,
+users will be unable to produce documents in their writing systems 
+using common applications such as Microsoft Word and Adobe InDesign. Users 
+will be unable to view websites containing text in these scripts using 
+Internet Explorer, Firefox, and other browsers. Moreover, typographers 
+wishing to design new, modern typefaces for these scripts will be hampered 
+because their creations will be unusable in ubiquitous platforms such as Windows.
+The reason for this is that OpenType, the common font standard, is
+dependent upon Microsoft&amp;#8217;s Uniscribe rendering engine and a font will
+not work in Windows until Uniscribe can handle the underlying script.
+Certainly, those who use Linux systems can rely on HarfBuzz, an open
+source OpenType rendering engine; but, ultimately, from a practical
+perspective, Uniscribe support is important because Windows is the
+most-commonly used operating system&amp;nbsp;worldwide.&lt;/p&gt;
+&lt;p&gt;What good is a Unicode standard for a script if there is no way for
+the general public to actually make use of it? What good is a Unicode
+standard for a script if implementation of it is dependent upon the
+economic cost-benefit decisions of major software companies? Although
+historical and minority scripts and related linguistic ecologies may
+not be profit generators, they are certainly valuable from humanist&amp;nbsp;perspectives.&lt;/p&gt;
+&lt;p&gt;So, what is the reality if Microsoft, Apple, Google, and others don&amp;#8217;t support 
+historical and minor scripts in their operating systems when a new
+version of the Unicode standard is published&amp;#8230; or ever? For now,
+thankfully, there we can provide font solutions using the Graphite
+rendering engine developed by &lt;span class="caps"&gt;SIL&lt;/span&gt;. However, Graphite fonts are not
+supported in Windows and, therefore, will not work in Microsoft
+Office, Internet Explorer, and other commonly-used applications.
+Applications like LibreOffice and XeTeX support Graphite, but the user
+base for these is limited. In the end, at least Graphite exists and
+those of us who work with lesser-used writing systems owe gratitude to
+&lt;span class="caps"&gt;SIL&lt;/span&gt; for having the foresight and imagination to provide a means for
+rendering writing systems independent of the whims of software&amp;nbsp;house.&lt;/p&gt;
+&lt;p&gt;I maintain the hope that Microsoft will continue to expand Uniscribe
+in order to support all scripts in the Unicode standard. But until the
+time comes when there is mandatory synchronization between releases of
+the standard and implementation, we must turn to other, albeit
+limited, solutions. As part of this solution, I will build Graphite
+fonts for all the scripts I have brought into Unicode in order to
+provide a basic level of support for these scripts in the Windows
+environment, even if the range of usage is limited. I am not a
+professional typopgrapher nor do I pretend to be, but such efforts are
+just an extension of the work I&amp;#8217;ve&amp;nbsp;started.&lt;/p&gt;
+&lt;p&gt;But, I am an individual with limited resources and numerous
+constraints. I encourage Microsoft, Apple, Google and others to meet me half way.
+After all, what good is a standard if no one cares to support&amp;nbsp;it?&lt;/p&gt;</content><category term="unicode"/></entry><entry><title>Fraction signs in Oriya</title><link href="https://pandey.github.io/unicode/posts/2013-05-08-oriya-fraction-signs.html" rel="alternate"/><published>2013-05-08T11:19:00-08:00</published><updated>2013-05-08T11:19:00-08:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2013-05-08:/unicode/posts/2013-05-08-oriya-fraction-signs.html</id><summary type="html">&lt;p&gt;Six fraction signs historically used in Oriya have been included in
+Unicode 6.0. These characters appear in written and printed documents,
+and were part of at least four different sets of Oriya metal fonts.
+The fraction signs were commonly used until 1958, at which time the
+Government of India …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Six fraction signs historically used in Oriya have been included in
+Unicode 6.0. These characters appear in written and printed documents,
+and were part of at least four different sets of Oriya metal fonts.
+The fraction signs were commonly used until 1958, at which time the
+Government of India adopted the decimal system for currency and the
+metric system for weights and measures. The characters are now&amp;nbsp;obsolete.&lt;/p&gt;
+&lt;p&gt;The fraction signs are illustrated by &lt;span class="caps"&gt;R. J.&lt;/span&gt; Grundy in the &lt;span
+style="font-style:italic;"&gt;Concise Oriya-English Dictionary&lt;/span&gt;
+(Cuttack: Orissa Mission Press,&amp;nbsp;1928):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/oriya_fractions_grundy.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Amos Sutton shows only the quarter fractions in the &lt;span
+style="font-style:italic;"&gt;Introductory Grammar of the Oriya
+Language&lt;/span&gt; (Cuttack: Baptist Mission Press,&amp;nbsp;1831):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/oriya_fractions_sutton.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;These fraction signs are now part of the &lt;a
+href="http://www.unicode.org/charts/PDF/U0B00.pdf"&gt;Oriya block&lt;/a&gt; in&amp;nbsp;Unicode:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/oriya_fractions_unicode.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The Oriya fractions are related to the &amp;#8216;currency numerator&amp;#8217; signs used
+in Bengali for writing&amp;nbsp;fractions:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/oriya_fractions_comp.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;More information on the Oriya fraction signs is available in the 
+&lt;a href="http://www.dkuug.dk/jtc1/sc2/wg2/docs/n3471.pdf"&gt;original proposal to encode these signs&lt;/a&gt;. 
+Information about the &amp;#8216;Common Indic&amp;#8217; fraction signs shown
+in the above image may be found in the 
+&lt;a href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3367.pdf"&gt;proposal&lt;/a&gt; 
+to encode &amp;#8216;Common Indic Number Forms&amp;#8217; in&amp;nbsp;Unicode.&lt;/p&gt;</content><category term="unicode"/><category term="oriya"/></entry><entry><title>Signs for representing Kashmiri vowels in Sharada</title><link href="https://pandey.github.io/unicode/posts/2011-05-12-sharada-kashmiri-signs.html" rel="alternate"/><published>2011-05-12T12:31:00-07:00</published><updated>2011-05-12T12:31:00-07:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2011-05-12:/unicode/posts/2011-05-12-sharada-kashmiri-signs.html</id><summary type="html">&lt;p&gt;Innovations for Kashmiri vowels in&amp;nbsp;Sharada&lt;/p&gt;</summary><content type="html">&lt;p&gt;The Sharada script was used primarily for writing Sanskrit. In order
+to represent Kashmiri, three additional signs were added to the&amp;nbsp;script.&lt;/p&gt;
+&lt;p&gt;A below-base slash that resembles the Devanagari &lt;em&gt;virāma&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/sharada_kashmiri_slash.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;An above-base bar that represents the Devanagari &lt;em&gt;anudatta&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/sharada_kashmiri_bar.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;An underdot that is similar to the Devanagari &lt;em&gt;nukta&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/sharada_kashmiri_underdot.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I am currently researching these signs. Please contact me if you have
+information about the use of these signs for writing&amp;nbsp;Kashmiri.&lt;/p&gt;</content><category term="unicode"/><category term="sharada"/></entry><entry><title>Change of block name: ‘Sindhi’ to ‘Khudawadi’</title><link href="https://pandey.github.io/unicode/posts/2011-01-30-sindhi-name-change.html" rel="alternate"/><published>2011-01-30T14:48:00-08:00</published><updated>2011-01-30T14:48:00-08:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2011-01-30:/unicode/posts/2011-01-30-sindhi-name-change.html</id><summary type="html">&lt;p&gt;Details on change of proposed block name to&amp;nbsp;Khudawadi&lt;/p&gt;</summary><content type="html">&lt;p&gt;My work on the Landa-based scripts of Sindhi continues. However, there
+has been a &lt;a href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3957.pdf"&gt;change&lt;/a&gt;
+to the name of the &amp;#8216;Sindhi&amp;#8217; script that I proposed, and which I
+briefly discussed in &lt;a
+href="http://anshumanpandey.blogspot.com/2010/08/standard-sindhi-script.html"&gt;a
+post in August 2010&lt;/a&gt;. The script is now called &amp;#8220;Khudawadi&amp;#8221;. An
+image of it is given&amp;nbsp;below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/grierson_khudawadi_excerpt.png"&gt;&lt;/p&gt;
+&lt;p&gt;The Khudawadi script was initially proposed under named &amp;#8216;Sindhi&amp;#8217;
+because its character repertoire is based upon the &amp;#8216;Standard Sindhi&amp;#8217;
+script. Standard Sindhi is itself based upon the Khudawadi script,
+which was the most well-known and complete of the Landa-based scripts
+used in Sindh. The intent of the &lt;a href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n3871.pdf"&gt;original
+proposal&lt;/a&gt; was to
+develop a standard that might also be used for representing the minor
+Landa scripts of Sindh, some of which are unsuitable for independent
+encoding. As &amp;#8216;Standard Sindhi&amp;#8217; was developed from Khudawadi in the
+1860s with the same idea, the rationale is valid, but the choice of
+the name &amp;#8216;Sindhi&amp;#8217; is&amp;nbsp;not.&lt;/p&gt;
+&lt;p&gt;The generic name &amp;#8216;Sindhi&amp;#8217; is problematic for several reasons. It is
+generally used for referring to the class of Landa-based scripts of
+Sindh, ie. the &amp;#8216;Sindhi scripts&amp;#8217;. It is not the proper name of any
+writing system that belongs to this script family. In fact, several
+other scripts, such as Khojki and Shikarpuri, are also known as
+&amp;#8216;Sindhi&amp;#8217;. Even &amp;#8216;Standard Sindhi&amp;#8217; was not known by the generic name
+&amp;#8216;Sindhi&amp;#8217;, but as &amp;#8216;Hindi Sindhi&amp;#8217;, etc. In modern India and Pakistan,
+the &amp;#8216;Sindhi script&amp;#8217; is commonly understood to be the Arabic-based
+script used for writing the Sindhi&amp;nbsp;language.&lt;/p&gt;
+&lt;p&gt;The name &amp;#8216;Khudawadi&amp;#8217; is the most appropriate name for the script. It
+is the proper name of the script and is well attested in primary and
+secondary literature, such as the &lt;em&gt;Linguistic Survey of India&lt;/em&gt;. The
+name is also used for &amp;#8216;Standard Sindhi&amp;#8217;, which is a reformed variant
+of Khudawadi and is referred to as such, ie. &amp;#8216;improved Khudawadi&amp;#8217;, in
+various&amp;nbsp;sources.&lt;/p&gt;
+&lt;p&gt;The change of name from &amp;#8216;Sindhi&amp;#8217; to &amp;#8216;Khudawadi&amp;#8217; will provide greater
+semantic and taxonomic clarity in identifying the various scripts used
+for writing Sindhi and the scripts used in Sindh. For example, it is
+more appropriate to refer to &amp;#8220;the Sindhi scripts &amp;#8216;Khudawadi&amp;#8217; and
+&amp;#8216;Khojki&amp;#8217;&amp;#8221;, rather than to &amp;#8220;the Sindhi scripts &amp;#8216;Sindhi&amp;#8217; and &amp;#8216;Khojki&amp;#8217;&amp;#8221;.
+Moreover, the use of the name &amp;#8216;Khudawadi&amp;#8217; will enable users to
+distinguish between the Landa-based and Arabic-based&amp;nbsp;scripts.&lt;/p&gt;
+&lt;p&gt;More details are available in the
+&lt;a href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3957.pdf"&gt;document&lt;/a&gt; requesting
+the formal change of name. The final proposal for Khudawadi is almost
+ready for submission to the Unicode Technical&amp;nbsp;Committee.&lt;/p&gt;</content><category term="unicode"/><category term="khudawadi"/></entry><entry><title>Alternate letter for ḍa in Devanagari</title><link href="https://pandey.github.io/unicode/posts/2010-12-10-devanagari-dda.html" rel="alternate"/><published>2010-12-10T16:22:00-08:00</published><updated>2010-12-10T16:22:00-08:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2010-12-10:/unicode/posts/2010-12-10-devanagari-dda.html</id><summary type="html">&lt;p&gt;Another letter for writing a retroflex stop in&amp;nbsp;Devanagari&lt;/p&gt;</summary><content type="html">&lt;p&gt;In Devanagari, the phoneme [ɖ] is generally represented with ड U+0921
+&lt;span class="caps"&gt;DEVANAGARI&lt;/span&gt; &lt;span class="caps"&gt;LETTER&lt;/span&gt; &lt;span class="caps"&gt;DDA&lt;/span&gt;. In historical Devanagari orthography for the
+Marwari language of Rajasthan, [ɖ] is represented with a different
+letter. In Marwari, ड is instead used for representing [ɽ], an
+allographic variant of [ɖ], which is generally written in Hindi as ड़
+U+095C &lt;span class="caps"&gt;DEVANAGARI&lt;/span&gt; &lt;span class="caps"&gt;LETTER&lt;/span&gt; &lt;span class="caps"&gt;DDDHA&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;In the &lt;em&gt;Linguistic Survey of India&lt;/em&gt;, George Grierson describes the
+usage of these characters in Marwari, as shown in the image&amp;nbsp;below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/grierson_marwari_dda.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The character is also shown by Mathias Metzger (&lt;em&gt;Die Sprache der
+Vakīl-Briefe aus Rājasthān&lt;/em&gt;, Würzburg: Ergon Verlag,&amp;nbsp;2003):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/metzger_retroflexes.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;This Marwari &lt;span class="caps"&gt;DDA&lt;/span&gt; cannot be treated as a glyphic variant of ड and
+should be encoded as an independent letter. I have submitted a
+&lt;a href="http://www.dkuug.dk/JTC1/SC2/WG2/docs/n3970.pdf"&gt;proposal&lt;/a&gt;, which
+contains additional information about the letter and examples of&amp;nbsp;use.&lt;/p&gt;
+&lt;p&gt;The forms shown by Grierson and Metzger differ slightly. My attempt at
+representing the two forms, in adherence with Monotype Devanagari, is
+shown&amp;nbsp;below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/marwari_dda_glyphs.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I recently learned that this letter was also used in Devanagari orthography 
+for languages of Sindh. The following specimen shows use of 
+the letter in&amp;nbsp;Kutchi:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/kutchi_dda_color.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Its usage contrasts with the regular letter &lt;span class="caps"&gt;DDA&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/kutchi_dda_gray.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I would be interested to learn if &lt;span class="caps"&gt;MARWARI&lt;/span&gt; &lt;span class="caps"&gt;LETTER&lt;/span&gt; &lt;span class="caps"&gt;DDA&lt;/span&gt; is used in the 
+orthographies for other&amp;nbsp;languages.&lt;/p&gt;</content><category term="unicode"/><category term="devanagari"/></entry><entry><title>An inscription in the Khudawadi script</title><link href="https://pandey.github.io/unicode/posts/2010-09-01-khudawadi-inscription.html" rel="alternate"/><published>2010-09-01T13:13:00-07:00</published><updated>2010-09-01T13:13:00-07:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2010-09-01:/unicode/posts/2010-09-01-khudawadi-inscription.html</id><summary type="html">&lt;p&gt;Details on an inscription bearing text in&amp;nbsp;Khudawadi&lt;/p&gt;</summary><content type="html">&lt;p&gt;The &lt;a href="http://std.dkuug.dk/JTC1/SC2/WG2/docs/n3766.pdf"&gt;Landa-based scripts of
+Sindh&lt;/a&gt; were generally
+not used for much more than routine writing and general commercial
+activity. Michel Boivin of L&amp;#8217;École des hautes études en sciences
+sociales (&lt;span class="caps"&gt;EHESS&lt;/span&gt;), Paris, recently sent me photographs that show the
+use of the Khudawadi script in an&amp;nbsp;inscription.&lt;/p&gt;
+&lt;p&gt;Below is a photograph of a Khudawadi inscription in an &lt;em&gt;ex-voto&lt;/em&gt; at
+the shrine of &lt;a href="http://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=odero+lal+sindh+pakistan&amp;amp;sll=25.698903,68.561978&amp;amp;sspn=0.020302,0.038581&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=Odero+Lal+Village,+Matiari,+Sindh,+Pakistan&amp;amp;t=h&amp;amp;ll=25.700938,68.565674&amp;amp;spn=5.195627,9.876709&amp;amp;z=7"&gt;Udero Lal in Hyderabad,
+Sindh&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/khudawadi_exvotos_udero_lal.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The image below shows the detail of the Khudawadi&amp;nbsp;inscription:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/khudawadi_exvotos_udero_lal_detail.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;In addition to Khudawadi, this &lt;em&gt;ex-voto&lt;/em&gt; has inscriptions in four
+other scripts: Latin, Devanagari, Arabic, and&amp;nbsp;Gurmukhi.&lt;/p&gt;
+&lt;p&gt;A proposal to encode Khudawadi in the Unicode standard is being&amp;nbsp;prepared.&lt;/p&gt;</content><category term="unicode"/><category term="khudawadi"/></entry><entry><title>Forms of candrabindu in Sharada</title><link href="https://pandey.github.io/unicode/posts/2010-08-31-sharada-candrabindu.html" rel="alternate"/><published>2010-08-31T03:03:00-07:00</published><updated>2010-08-31T03:03:00-07:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2010-08-31:/unicode/posts/2010-08-31-sharada-candrabindu.html</id><summary type="html">&lt;p&gt;Varying representations of candrabindu in&amp;nbsp;Sharada&lt;/p&gt;</summary><content type="html">&lt;p&gt;The regular form ? of the &lt;span class="caps"&gt;CANDRABINDU&lt;/span&gt; in Sharada resembles 
+an inverted form of Devanagari ?. Several Sharada manuscripts 
+show an inverted form of &lt;span class="caps"&gt;CANDRABINDU&lt;/span&gt;, which co-occurs with 
+the regular form, sometimes on the same line.
+In the following image, the inverted &lt;span class="caps"&gt;CANDRABINDU&lt;/span&gt; sign is used for
+writing &lt;span class="caps"&gt;OM&lt;/span&gt;, while the regular &lt;span class="caps"&gt;CANDRABINDU&lt;/span&gt; is used in other&amp;nbsp;contexts:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/sharada_candrabindus_1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The above specimen might lead one to think that &lt;span class="caps"&gt;OM&lt;/span&gt; is written with an
+inverted &lt;span class="caps"&gt;CANDRABINDU&lt;/span&gt;. Is it perhaps because it is considered a
+&amp;#8216;special&amp;#8217;&amp;nbsp;symbol?&lt;/p&gt;
+&lt;p&gt;In the following image both regular and inverted &lt;span class="caps"&gt;CANDRABINDU&lt;/span&gt; are used
+for writing &lt;span class="caps"&gt;OM&lt;/span&gt; (sorry, the beginning of the second line is smudged in
+the&amp;nbsp;original):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/sharada_candrabindus_2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Is there a semantic distinction between the regular and inverted forms
+of &lt;span class="caps"&gt;CANDRABINDU&lt;/span&gt; in Sharada? It does not seem so, especially when
+considering the use of both forms in writing &lt;span class="caps"&gt;OM&lt;/span&gt;, which has a fairly
+fixed&amp;nbsp;meaning&amp;#8230;&lt;/p&gt;
+&lt;p&gt;Do we just chalk it up to scribal&amp;nbsp;idiosyncrasy? &lt;/p&gt;</content><category term="unicode"/><category term="sharada"/></entry><entry><title>Modi accounting signs and number forms</title><link href="https://pandey.github.io/unicode/posts/2010-08-28-modi-accounting-signs.html" rel="alternate"/><published>2010-08-28T15:40:00-07:00</published><updated>2010-08-28T15:40:00-07:00</updated><author><name>Anshuman Pandey</name></author><id>tag:pandey.github.io,2010-08-28:/unicode/posts/2010-08-28-modi-accounting-signs.html</id><summary type="html">&lt;p&gt;Signs used for numerical notation in&amp;nbsp;Modi&lt;/p&gt;</summary><content type="html">&lt;p&gt;Before the standardization of currency and monetary units 
+that followed the formation of the Republic of India 
+and other nation states in South Asia in the middle of 
+the 20th century, various forms of numerical notation 
+were used in the&amp;nbsp;region.&lt;/p&gt;
+&lt;p&gt;Modi documents contain unique signs that are used for marking monetary
+amounts. Two such signs are shown in the image&amp;nbsp;below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/modi_number_forms.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The character ꠷ is called आळी  &lt;em&gt;āḷī&lt;/em&gt; in Marathi. It represents
+the absence of numbers and is written after whole amounts to indicate
+that there are no fractions. In the image, the first highlighted
+example is ८००꠷ &amp;#8216;800/-&amp;#8216; and the third is १४०꠷ &amp;#8216;140/-&amp;#8216;. The ꠷ sign is
+encoded in Unicode as U+A837 &lt;span class="caps"&gt;NORTH&lt;/span&gt; &lt;span class="caps"&gt;INDIC&lt;/span&gt; &lt;span class="caps"&gt;PLACEHOLDER&lt;/span&gt; &lt;span class="caps"&gt;MARK&lt;/span&gt;. (More
+information on this and other signs is provided in my &lt;a href="http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3367.pdf"&gt;proposal to
+encode Common Indic number&amp;nbsp;forms&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The other sign shown resembles the ÷ &amp;#8216;division sign&amp;#8217; or &lt;em&gt;obelus&lt;/em&gt;. It
+is used in the highlighted examples two and four in the above image.
+Based upon the context in which it is used, it could represent a
+&amp;#8216;remainder&amp;#8217; sign, eg. the amount written and then some; or a 
+&lt;em&gt;pāvalī&lt;/em&gt; `quarter&amp;#8217;. &lt;!-- .|. --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="https://pandey.github.io/unicode/images/modi_pavali.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;If there is anyone who is familiar with the use of these signs in
+Modi, I would be happy to hear from&amp;nbsp;you.&lt;/p&gt;</content><category term="unicode"/><category term="modi"/></entry></feed>

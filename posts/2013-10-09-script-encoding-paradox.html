@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="https://pandey.github.io/unicode/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="https://pandey.github.io/unicode/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="https://pandey.github.io/unicode/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="https://pandey.github.io/unicode/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Anshuman Pandey Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+
+<meta name="author" content="Anshuman Pandey" />
+<meta name="description" content="The need for full support for each Unicode version." />
+<meta name="keywords" content="">
+<meta property="og:site_name" content="Anshuman Pandey"/>
+<meta property="og:title" content="The paradox of encoding new scripts in Unicode"/>
+<meta property="og:description" content="The need for full support for each Unicode version."/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://pandey.github.io/unicode/posts/2013-10-09-script-encoding-paradox.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2013-10-09 00:09:18.590000-08:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://pandey.github.io/unicode/author/anshuman-pandey.html">
+<meta property="article:section" content="unicode"/>
+<meta property="og:image" content="arrival.jpg">
+
+  <title>Anshuman Pandey &ndash; The paradox of encoding new scripts in Unicode</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="https://pandey.github.io/unicode">
+        <img src="https://pandey.github.io/unicode/images/arrival.jpg" alt="Expanding Unicode" title="Expanding Unicode">
+      </a>
+      <h1><a href="https://pandey.github.io/unicode">Expanding Unicode</a></h1>
+
+      
+<!--      <p>Anshuman Pandey</p> -->
+
+            <p><a href="https://pandey.github.io">pandey.github.io</a> / <a href="https://pandey.github.io/unicode">unicode</a></p>
+      
+      
+      <nav>
+        <ul class="list">
+<!--                <li><a href="https://pandey.github.io/unicode/about.html#about">About</a></li>
+          <li><a href="https://pandey.github.io/unicode/chars.html#chars">Character&nbsp;additions</a></li>
+          <li><a href="https://pandey.github.io/unicode/documents.html#documents">Documents</a></li>
+          <li><a href="https://pandey.github.io/unicode/emoji.html#emoji">Emoji</a></li>
+          <li><a href="https://pandey.github.io/unicode/overview.html#overview">Overview</a></li>
+          <li><a href="https://pandey.github.io/unicode/google.html#google">Summary of Google Research&nbsp;Award</a></li>
+          <li><a href="https://pandey.github.io/unicode/support.html#support">Support</a></li>
+-->
+<!--                <li><a href="" target="_blank">about</a></li>
+          <li><a href="overview.html" target="_blank">overview</a></li>
+          <li><a href="documents.html" target="_blank">documents</a></li>
+          <li><a href="support.html" target="_blank">support</a></li>
+          <li><a href="emoji.html" target="_blank">emoji</a></li>
+          <li><a href="blog.html" target="_blank">blog</a></li>
+-->
+          <li><a href="https://pandey.github.io/unicode/">about</a></li>
+          <li><a href="https://pandey.github.io/unicode/overview.html">overview</a></li>
+          <li><a href="https://pandey.github.io/unicode/documents.html">documents</a></li>
+          <li><a href="https://pandey.github.io/unicode/support.html">support</a></li>
+          <li><a href="https://pandey.github.io/unicode/emoji.html">emoji</a></li>
+          <li><a href="https://pandey.github.io/unicode/blog.html">blog</a></li>
+        </ul>
+<!--    <ul class="list">
+
+          <li><a href="https://pandey.github.io">pandey.github.io</a></li>
+  
+        </ul>
+        -->
+      </nav>
+
+<!--      <ul class="social">
+      </ul>
+    </div>
+-->
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+    <h1 id="script-encoding-paradox">The paradox of encoding new scripts in&nbsp;Unicode</h1>
+    <p>
+      Posted on Wed 09 October 2013 in <a href="https://pandey.github.io/unicode/category/unicode.html">unicode</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Over the past several years I have developed Unicode standards for
+numerous historical and minor
+<a href="http://pandey.github.io/unicode">scripts</a> of South Asia. Some of my
+formally proposed encodings have been approved and are making 
+their way through various stages of balloting as part of the
+process established by the International Organization for
+Standardization (<span class="caps">ISO</span>) &#8212;- Unicode is also known as <span class="caps">ISO</span>/<span class="caps">IEC</span> 10646 &#8212;-
+while others have been formally published in the&nbsp;standard. </p>
+<p>The inclusion of a script in Unicode is a major milestone. Native user and
+scholarly communities await the arrival of these new encodings from
+the day that I contact them &#8212;- if not for years in the making &#8212;- 
+and discuss my plans for developing an encoding for a particular script. 
+It takes nearly two years for an encoding to be published in Unicode after 
+being approved by both the Unicode Technical Committee and <span class="caps">ISO</span>&#8217;s <span class="caps">WG2</span> group. 
+But, once a script is in Unicode the general perception of what &#8220;inclusion
+in the standard&#8221; means is far removed from the reality that is
+suggested by such an&nbsp;&#8220;inclusion&#8221;.</p>
+<p>The disjunction between expectation and reality is truly a paradox: The
+encoding of a script in Unicode does not automatically imply that it will be
+supported out of the box. As is the case with other historical and minor scripts
+encoded in Unicode, it is unlikely that major software houses will
+rush to provide support for these scripts right away, or if they do so
+at&nbsp;all!</p>
+<p>If these companies do not implement support for these scripts,
+users will be unable to produce documents in their writing systems 
+using common applications such as Microsoft Word and Adobe InDesign. Users 
+will be unable to view websites containing text in these scripts using 
+Internet Explorer, Firefox, and other browsers. Moreover, typographers 
+wishing to design new, modern typefaces for these scripts will be hampered 
+because their creations will be unusable in ubiquitous platforms such as Windows.
+The reason for this is that OpenType, the common font standard, is
+dependent upon Microsoft&#8217;s Uniscribe rendering engine and a font will
+not work in Windows until Uniscribe can handle the underlying script.
+Certainly, those who use Linux systems can rely on HarfBuzz, an open
+source OpenType rendering engine; but, ultimately, from a practical
+perspective, Uniscribe support is important because Windows is the
+most-commonly used operating system&nbsp;worldwide.</p>
+<p>What good is a Unicode standard for a script if there is no way for
+the general public to actually make use of it? What good is a Unicode
+standard for a script if implementation of it is dependent upon the
+economic cost-benefit decisions of major software companies? Although
+historical and minority scripts and related linguistic ecologies may
+not be profit generators, they are certainly valuable from humanist&nbsp;perspectives.</p>
+<p>So, what is the reality if Microsoft, Apple, Google, and others don&#8217;t support 
+historical and minor scripts in their operating systems when a new
+version of the Unicode standard is published&#8230; or ever? For now,
+thankfully, there we can provide font solutions using the Graphite
+rendering engine developed by <span class="caps">SIL</span>. However, Graphite fonts are not
+supported in Windows and, therefore, will not work in Microsoft
+Office, Internet Explorer, and other commonly-used applications.
+Applications like LibreOffice and XeTeX support Graphite, but the user
+base for these is limited. In the end, at least Graphite exists and
+those of us who work with lesser-used writing systems owe gratitude to
+<span class="caps">SIL</span> for having the foresight and imagination to provide a means for
+rendering writing systems independent of the whims of software&nbsp;house.</p>
+<p>I maintain the hope that Microsoft will continue to expand Uniscribe
+in order to support all scripts in the Unicode standard. But until the
+time comes when there is mandatory synchronization between releases of
+the standard and implementation, we must turn to other, albeit
+limited, solutions. As part of this solution, I will build Graphite
+fonts for all the scripts I have brought into Unicode in order to
+provide a basic level of support for these scripts in the Windows
+environment, even if the range of usage is limited. I am not a
+professional typopgrapher nor do I pretend to be, but such efforts are
+just an extension of the work I&#8217;ve&nbsp;started.</p>
+<p>But, I am an individual with limited resources and numerous
+constraints. I encourage Microsoft, Apple, Google and others to meet me half way.
+After all, what good is a standard if no one cares to support&nbsp;it?</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+
+</article>
+
+    <footer>
+<p>&copy; Anshuman Pandey </p>
+<p>Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a></p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Anshuman Pandey ",
+  "url" : "https://pandey.github.io/unicode",
+  "image": "arrival.jpg",
+  "description": ""
+}
+</script>
+</body>
+</html>
